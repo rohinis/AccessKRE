@@ -3,10 +3,10 @@
 1. Clean up the stage area for the users - not required on Dockers 
 2. PBS Jobs needs to cleaned  - not required on Dockers
 3. Download the pre requisites folder ( Pre-Requisites.zip )
-4. Copy  Prerequisites.zip folder to the head node and Unzip 
+4. Copy  Pre-Requisites.zip folder to the head node and Unzip 
 5. Navigate into unzipped folder
-	 - Change permissions for the contents of Pre-Requisites.zip folder  
-	   - chmod 777 * 
+	 - Change permissions for the contents of Pre-Requisites folder  
+	   - chmod 777 -R * 
 	   - chmod 777 TestData/* 
 	   - chmod 777 TestAppDefs/* 
 6. Update the list of available user in userlist.txt or rename appropriate user list to userlist.txt
@@ -24,4 +24,4 @@
    -  AccessKRE\Profiles\ExecProfile-raju.glbl
    -  AccessKRE\Profiles\ExecProfile-serviceuser.glbl
 4. Run startTest.sh once the Access Setup is ready.
-5. The reports will be available in - $KATALON-PROJECT-LOCATON/AccessWeb/ExtentReports  folder.
+5. The reports will be available in - $KATALON-PROJECT-LOCATON/AccessKRE/ExtentReports  folder.
