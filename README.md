@@ -10,7 +10,8 @@
 	   - chmod 777 TestData/* 
 	   - chmod 777 TestAppDefs/* 
 6. Update the list of available user in userlist.txt or rename appropriate user list to userlist.txt
-7. Run the following scripts  ( in the same order ) 
+7. Update the exec location for solvers in site-config.xml ( loc : Pre-Requisites\TestAppDefs\site-config.xml )
+8. Run the following scripts  ( in the same order ) 
 	  - configureAppDefs.sh
       - createTestData.sh
 
