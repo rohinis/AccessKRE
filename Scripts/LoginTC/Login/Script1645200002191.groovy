@@ -7,16 +7,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-import com.aventstack.extentreports.ExtentReports
-import com.aventstack.extentreports.ExtentTest
 import com.aventstack.extentreports.MediaEntityBuilder
 import com.aventstack.extentreports.Status
 
-
 //====================================================================================
-ReportFile = (GlobalVariable.G_ReportName + '.html')
-ExtentReports extent = CustomKeywords.'generateReports.GenerateReport.createSpark'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
-ExtentTest  extentTest = extent.createTest(TestCaseName)
+def extentTest=GlobalVariable.G_ExtentTest
 //=====================================================================================
 
 
@@ -75,10 +70,9 @@ catch (StepErrorException e) {
 }
 finally {
 		extentTest.log(Status.PASS, 'Closing the browser after executinge test case - '+ TestCaseName)
-	extent.flush()
+	
+
 }
-
-
 
 
 

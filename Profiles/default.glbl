@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworksddd'</initValue>
+      <initValue>'pbsworks'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

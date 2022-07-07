@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "258A260109B7068AF1B53DB40177496C",
+  "keywordClasses": [
+    {
+      "name": "demo.tryPAW",
+      "keywordMethods": [
+        {
+          "name": "downloadTest",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

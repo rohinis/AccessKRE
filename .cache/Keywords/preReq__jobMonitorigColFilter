@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "D7AD0825FCBAF143EF36E6D96CB0324F",
+  "keywordClasses": [
+    {
+      "name": "preReq.jobMonitorigColFilter",
+      "keywordMethods": [
+        {
+          "name": "addColumn",
+          "parameters": [
+            {
+              "name": "extentTest",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
