@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminSuite,Firefox 102.0,,,2022-07-12 19:57:53,2022-07-12 20:01:52,3m - 59.305s,PASSED
+,,,,,,,
+Test Cases/Cluster_Registration/ClusterRegistration,Firefox 102.0,,,2022-07-12 19:57:56,2022-07-12 19:59:37,1m - 40.783s,PASSED
+Start listener action : BeforeTestCase,Firefox 102.0,,,2022-07-12 19:57:56,2022-07-12 19:58:28,31.389s,PASSED
+driver = getWebDriver(),Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:28,0.001s,PASSED
+eventFiring = getWebDriver(),Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:28,0.002s,PASSED
+wrappedWebDriver = eventFiring.getWrappedDriver(),Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:28,0.001s,PASSED
+katalonWebDriver = wrappedWebDriver,Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:28,0.001s,PASSED
+extentTest = G_ExtentTest,Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:28,0.000s,PASSED
+toLogin.ForLogin.Login(extentTest),Firefox 102.0,,,2022-07-12 19:58:28,2022-07-12 19:58:33,4.681s,PASSED
+addBtn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 19:58:33,2022-07-12 19:58:33,0.000s,PASSED
+lblMngSrv = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 19:58:33,2022-07-12 19:58:33,0.001s,PASSED
+"colid = ""name""",Firefox 102.0,,,2022-07-12 19:58:33,2022-07-12 19:58:33,0.001s,PASSED
+result = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 19:58:33,2022-07-12 19:58:33,0.001s,PASSED
+delay(2),Firefox 102.0,,,2022-07-12 19:58:33,2022-07-12 19:58:35,2.018s,PASSED
+try,Firefox 102.0,,,2022-07-12 19:58:35,2022-07-12 19:59:37,1m - 1.998s,PASSED
+Finally,Firefox 102.0,,,2022-07-12 19:59:37,2022-07-12 19:59:37,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 102.0,,,2022-07-12 19:59:37,2022-07-12 19:59:37,0.002s,PASSED
+,,,,,,,
+Test Cases/Cluster_Registration/ClusterRegistration,Firefox 102.0,,,2022-07-12 19:59:37,2022-07-12 20:00:39,1m - 1.716s,PASSED
+Start listener action : BeforeTestCase,Firefox 102.0,,,2022-07-12 19:59:37,2022-07-12 20:00:07,30.035s,PASSED
+driver = getWebDriver(),Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:07,0.000s,PASSED
+eventFiring = getWebDriver(),Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:07,0.000s,PASSED
+wrappedWebDriver = eventFiring.getWrappedDriver(),Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:07,0.001s,PASSED
+katalonWebDriver = wrappedWebDriver,Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:07,0.000s,PASSED
+extentTest = G_ExtentTest,Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:07,0.000s,PASSED
+toLogin.ForLogin.Login(extentTest),Firefox 102.0,,,2022-07-12 20:00:07,2022-07-12 20:00:16,8.259s,PASSED
+addBtn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:00:16,2022-07-12 20:00:16,0.000s,PASSED
+lblMngSrv = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:00:16,2022-07-12 20:00:16,0.001s,PASSED
+"colid = ""name""",Firefox 102.0,,,2022-07-12 20:00:16,2022-07-12 20:00:16,0.000s,PASSED
+result = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:00:16,2022-07-12 20:00:16,0.001s,PASSED
+delay(2),Firefox 102.0,,,2022-07-12 20:00:16,2022-07-12 20:00:18,2.008s,PASSED
+try,Firefox 102.0,,,2022-07-12 20:00:18,2022-07-12 20:00:39,21.350s,PASSED
+Finally,Firefox 102.0,,,2022-07-12 20:00:39,2022-07-12 20:00:39,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 102.0,,,2022-07-12 20:00:39,2022-07-12 20:00:39,0.001s,PASSED
+,,,,,,,
+Test Cases/Cluster_Registration/ClusterRegistration,Firefox 102.0,,,2022-07-12 20:00:39,2022-07-12 20:01:52,1m - 12.617s,PASSED
+Start listener action : BeforeTestCase,Firefox 102.0,,,2022-07-12 20:00:39,2022-07-12 20:01:14,35.013s,PASSED
+driver = getWebDriver(),Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:14,0.001s,PASSED
+eventFiring = getWebDriver(),Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:14,0.000s,PASSED
+wrappedWebDriver = eventFiring.getWrappedDriver(),Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:14,0.000s,PASSED
+katalonWebDriver = wrappedWebDriver,Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:14,0.000s,PASSED
+extentTest = G_ExtentTest,Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:14,0.000s,PASSED
+toLogin.ForLogin.Login(extentTest),Firefox 102.0,,,2022-07-12 20:01:14,2022-07-12 20:01:19,4.689s,PASSED
+addBtn = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:01:19,2022-07-12 20:01:19,0.001s,PASSED
+lblMngSrv = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:01:19,2022-07-12 20:01:19,0.000s,PASSED
+"colid = ""name""",Firefox 102.0,,,2022-07-12 20:01:19,2022-07-12 20:01:19,0.000s,PASSED
+result = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 102.0,,,2022-07-12 20:01:19,2022-07-12 20:01:19,0.001s,PASSED
+delay(2),Firefox 102.0,,,2022-07-12 20:01:19,2022-07-12 20:01:21,2.005s,PASSED
+try,Firefox 102.0,,,2022-07-12 20:01:21,2022-07-12 20:01:52,30.869s,PASSED
+Finally,Firefox 102.0,,,2022-07-12 20:01:52,2022-07-12 20:01:52,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 102.0,,,2022-07-12 20:01:52,2022-07-12 20:01:52,0.000s,PASSED

@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Login,Firefox 102.0,,,2022-07-07 18:46:29,2022-07-07 18:47:55,1m - 26.949s,PASSED
-,,,,,,,
-Test Cases/LoginTC/Login,Firefox 102.0,,,2022-07-07 18:46:33,2022-07-07 18:47:55,1m - 22.522s,PASSED
-Start listener action : BeforeTestCase,Firefox 102.0,,,2022-07-07 18:46:33,2022-07-07 18:47:52,1m - 18.802s,PASSED
-extentTest = G_ExtentTest,Firefox 102.0,,,2022-07-07 18:47:53,2022-07-07 18:47:53,0.003s,PASSED
-try,Firefox 102.0,,,2022-07-07 18:47:53,2022-07-07 18:47:55,2.422s,PASSED
-catch (Exception ex),Firefox 102.0,,,2022-07-07 18:47:55,2022-07-07 18:47:55,0.280s,PASSED
-Finally,Firefox 102.0,,,2022-07-07 18:47:55,2022-07-07 18:47:55,0.001s,PASSED

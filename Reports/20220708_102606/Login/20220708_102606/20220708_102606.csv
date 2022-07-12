@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Login,,,,2022-07-08 10:26:22,2022-07-08 10:26:38,16.340s,FAILED
-,,,,,,,
-Test Cases/LoginTC/Login,,,,2022-07-08 10:26:28,2022-07-08 10:26:38,10.456s,FAILED
-Start listener action : BeforeTestCase,,,,2022-07-08 10:26:28,2022-07-08 10:26:37,9.150s,FAILED
-extentTest = G_ExtentTest,,,,2022-07-08 10:26:38,2022-07-08 10:26:38,0.003s,PASSED
-try,,,,2022-07-08 10:26:38,2022-07-08 10:26:38,0.397s,FAILED
-catch (Exception ex),,,,2022-07-08 10:26:38,2022-07-08 10:26:38,0.123s,FAILED
-Finally,,,,2022-07-08 10:26:38,2022-07-08 10:26:38,0.002s,PASSED
