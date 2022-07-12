@@ -33,6 +33,7 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 def addBtn
 def lblMngSrv
 def colid='name'
+def result
 WebUI.delay(2)
 
 try
