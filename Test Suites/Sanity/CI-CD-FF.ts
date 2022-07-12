@@ -10,7 +10,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Files</profileName>
+            <profileName>ExecProfile-adminuser</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
@@ -20,7 +20,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Folders</profileName>
+            <profileName>ExecProfile-david</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
@@ -30,7 +30,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Admin</profileName>
+            <profileName>ExecProfile-adminuser</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
@@ -40,7 +40,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_JS</profileName>
+            <profileName>ExecProfile-serviceuser</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
@@ -50,7 +50,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>FireFox_Folders</profileName>
+            <profileName>ExecProfile-david</profileName>
             <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
