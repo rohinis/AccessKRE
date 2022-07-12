@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="86.949" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="86.949" skipped="0" timestamp="2022-07-07 18:46:29" hostname="rohinis - BLRLAP1020.indiablr.altair.com" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rohinis\\Documents\\GitHub\\myCode\\Reports\\20220707_184609\\Login\\20220707_184609"/>
+         <property name="logFiles" value="C:\\Users\\rohinis\\Documents\\GitHub\\myCode\\Reports\\20220707_184609\\Login\\20220707_184609\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rohinis\\Documents\\GitHub\\myCode\\Reports\\20220707_184609\\Login\\20220707_184609\\ExtentReports/LoginFireFox.png"/>
+         <property name="hostName" value="rohinis - BLRLAP1020.indiablr.altair.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Firefox 102.0"/>
+         <property name="hostAddress" value="10.75.48.1"/>
+         <property name="sessionId" value="49e1106d-fc97-4f64-82ea-fcea06884d3c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginTC/Login" time="82.522" classname="Test Cases/LoginTC/Login" status="PASSED">
+         <system-out><![CDATA[2022-07-07 18:46:33 - [TEST_CASE][PASSED] - Test Cases/LoginTC/Login: Test Cases/LoginTC/Login
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - variableList = testCaseContext.getTestCaseVariables(): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println("context - " + variableList): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - tcID = testCaseContext.getTestCaseId(): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - tcScript = tcID.split("\/"): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - len = tcScript.size(): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - tcScriptName = tcScript[len - 1]: null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println("=========================="): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println(tcScriptName): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println("=========================="): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - testcaseName = generateReports.testCaseNameChange.toSplit(variableList, "TestCaseName"): generateReports.testCaseNameChange.toSplit is PASSED
+
+2022-07-07 18:46:33 - [MESSAGE][PASSED] - generateReports.testCaseNameChange.toSplit is PASSED
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - UpdatedtestcaseName = generateReports.testCaseNameChange.updateTCName(testcaseName, variableList, tcScriptName): generateReports.testCaseNameChange.updateTCName is PASSED
+
+2022-07-07 18:46:33 - [MESSAGE][PASSED] - generateReports.testCaseNameChange.updateTCName is PASSED
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println("new tn  --- " + UpdatedtestcaseName): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - println("-------------------------"): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - if (tcScriptName.equals("JobSubmission-FileOperations") && UpdatedtestcaseName.contains("tile view")): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - else: null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - G_ExtentTest = extent.createTest(UpdatedtestcaseName): null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - extentTest = G_ExtentTest: null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - try: null
+
+2022-07-07 18:46:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.manager.showWhenStarting', 'false']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.helperApps.neverAsk.saveToDisk', 'text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msexcel,application/x-msexcel,application/excel,application/octet-stream']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.helperApps.neverAsk.openFile', 'text/csv,application/vnd.ms-excel,application/msexcel,application/x-msexcel,application/excel,,application/octet-stream']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.folderList', '2']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.helperApps.alwaysAsk.force', 'false']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.forbid_open_with ', 'true']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.panel.shown', 'false']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.dir', 'c:/katalonDownloads']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - User set Firefox profile preference: ['browser.download.manager.openDelay', '1']
+
+2022-07-07 18:46:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-07 18:46:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-07 18:46:46 - [TEST_STEP][PASSED] - G_ExtentTest.log(PASS, "Navigated to Acces Instance - " + G_BaseUrl): null
+
+2022-07-07 18:46:47 - [TEST_STEP][PASSED] - deleteAllCookies(): Delete all cookies successfully
+
+2022-07-07 18:46:47 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2022-07-07 18:46:47 - [TEST_STEP][PASSED] - navigateToUrl(G_BaseUrl): Navigate to 'https://10.75.22.62:4443/pbsworks' successfully
+
+2022-07-07 18:47:52 - [MESSAGE][PASSED] - Navigate to 'https://10.75.22.62:4443/pbsworks' successfully
+
+2022-07-07 18:47:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-07 18:47:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-07 18:47:52 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-07-07 18:47:52 - [TEST_STEP][PASSED] - caps = getWrappedDriver().getCapabilities(): null
+
+2022-07-07 18:47:52 - [TEST_STEP][PASSED] - bn = caps.getBrowserName(): null
+
+2022-07-07 18:47:52 - [TEST_STEP][PASSED] - bv = caps.getVersion(): null
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - extentTest = G_ExtentTest: null
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - try: null
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - Browser = G_Browser: null
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - extentTest.log(PASS, "Navigated to Acces Instance - " + G_BaseUrl): null
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/username_txtbx"), G_userName): Text 'pbsworksddd' is set on object 'Object Repository/LoginPage/username_txtbx'
+
+2022-07-07 18:47:53 - [MESSAGE][PASSED] - Text 'pbsworksddd' is set on object 'Object Repository/LoginPage/username_txtbx'
+
+2022-07-07 18:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/password_txtbx"), G_Password): Text 'pbsworks' is set on object 'Object Repository/LoginPage/password_txtbx'
+
+2022-07-07 18:47:54 - [MESSAGE][PASSED] - Text 'pbsworks' is set on object 'Object Repository/LoginPage/password_txtbx'
+
+2022-07-07 18:47:54 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/login_btn")): Object: 'Object Repository/LoginPage/login_btn' is clicked on
+
+2022-07-07 18:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/login_btn' is clicked on
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - extentTest.log(PASS, "Entered Creds - username - " + G_userName + " password - " + G_Password): null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - log: null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - catch (Exception ex): null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - screenShotPath = "ExtentReports/" + TestCaseName + G_Browser + ".png": null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - takeScreenshot(screenShotPath): Taking screenshot successfully
+
+2022-07-07 18:47:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rohinis\\Documents\\GitHub\\myCode\\Reports\\20220707_184609\\Login\\20220707_184609\\ExtentReports/LoginFireFox.png]]
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - p = TestCaseName + G_Browser + ".png": null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - extentTest.log(FAIL, ex): null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - extentTest.fail(createScreenCaptureFromPath(p).build()): null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - Finally: null
+
+2022-07-07 18:47:55 - [TEST_STEP][PASSED] - extentTest.log(PASS, "Closing the browser after executinge test case - " + TestCaseName): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-07 18:46:29 - [TEST_SUITE][PASSED] - Login: Test Cases/LoginTC/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
