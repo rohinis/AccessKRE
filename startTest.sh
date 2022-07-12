@@ -6,7 +6,7 @@ case "$Suite" in
 #################################################################################################
  "AdminSuite")
 echo "Admin"
-./katalonc -noSplash -runMode=console -projectPath="/tmp/AccessKRE/AccessKRE.prj" -retry=0 -testSuitePath="Test Suites/Sanity/AdminTestCases" -browserType="Firefox (headless)" -executionProfile="ExecProfile-adminuser" -apiKey="00c63975-db37-4c61-b183-66bdb637dcc3" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+./katalonc -noSplash -runMode=console -projectPath="/tmp/AccessKRE/AccessKRE.prj" -retry=0 -testSuitePath="Test Suites/Sanity/AdminTestCases" -browserType="Firefox (headless)" -executionProfile="ExecProfile-david" -apiKey="00c63975-db37-4c61-b183-66bdb637dcc3" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
 ;;
 
 #################################################################################################
