@@ -20,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>d417607a-2b96-47bd-aaa9-ad88632f2ff1</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/ClusterReg</testDataId>
