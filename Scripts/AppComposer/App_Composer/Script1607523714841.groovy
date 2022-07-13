@@ -220,7 +220,7 @@ try {
 			WebUI.click(findTestObject('AppComposer/Login'))
 			extentTest.log(Status.PASS, 'Click on Login again')
 			WebUI.setText(findTestObject('LoginPage/username_txtbx'),'raju')
-			extentTest.log(Status.PASS, 'Enter username raju)
+			extentTest.log(Status.PASS, 'Enter username raju')
 			WebUI.setText(findTestObject('LoginPage/password_txtbx'), 'raju')
 			extentTest.log(Status.PASS, 'Enter  password  raju')
 			WebUI.click(findTestObject('LoginPage/login_btn'))
