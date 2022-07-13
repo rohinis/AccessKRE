@@ -91,6 +91,7 @@ try
 		lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
 		15 , extentTest ,'Manage Server heading')
 		extentTest.log(Status.PASS, 'Manage Server lable status - '+lblMngSrv)
+		
 		if (lblMngSrv) {
 
 			result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
@@ -104,6 +105,7 @@ try
 			WebUI.takeScreenshot(screenShotPath)
 			String p = (SSName + GlobalVariable.G_Browser) + '.png'
 			extentTest.log(Status.FAIL, 'Manage server page not loaded')
+			extentTest.fail(MediaEntityBuilder.createScreenCaptureFromPath(p).build())
 		}
 
 		break
@@ -149,6 +151,7 @@ try
 			WebUI.takeScreenshot(screenShotPath)
 			String p = (SSName + GlobalVariable.G_Browser) + '.png'
 			extentTest.log(Status.FAIL, 'Manage server page not loaded')
+			extentTest.fail(MediaEntityBuilder.createScreenCaptureFromPath(p).build())
 		}
 		break
 
