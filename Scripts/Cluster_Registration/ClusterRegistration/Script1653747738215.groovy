@@ -88,7 +88,7 @@ try
 
 			lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
 					15 , extentTest ,'Manage Server heading')
-
+			extentTest.log(Status.PASS, 'Manage Server lable status - '+lblMngSrv)
 			if (lblMngSrv) {
 
 				result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
@@ -124,7 +124,7 @@ try
 
 			lblMngSrv=CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/Cluster_Registration/Label_ManageServer'),
 					15 , extentTest ,'Manage Server heading')
-
+			extentTest.log(Status.PASS, 'Manage Server lable status - '+lblMngSrv)
 			result = CustomKeywords.'operations_JobsModule.GetJobRowDetails.listServer'(katalonWebDriver, colid, server,extentTest)
 
 			break
