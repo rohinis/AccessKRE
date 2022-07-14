@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>816b7fa5-30db-44a2-b210-fac466f6bb6b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cluster_Registration/ClusterRegistration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -78,7 +78,7 @@
    <testCaseLink>
       <guid>7c901d33-1ceb-4e85-8171-fbb84e26639d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AppComposer/App_Composer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
