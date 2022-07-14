@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>816b7fa5-30db-44a2-b210-fac466f6bb6b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Cluster_Registration/ClusterRegistration</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -124,7 +124,7 @@
    <testCaseLink>
       <guid>b7524c86-4aa3-4cd2-81e0-f4e6df55ab4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -167,7 +167,7 @@
    <testCaseLink>
       <guid>4a984559-80b8-43d0-895f-941253940a5e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
