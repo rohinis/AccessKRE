@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>a360098c-69dc-4e2f-951a-2747cc3fb33d</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>7-12</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3,6</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FolderOps</testDataId>
       </testDataLink>
@@ -60,8 +60,8 @@
          <combinationType>ONE</combinationType>
          <id>27255fdf-03b7-478a-94cd-8877048dc47c</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-6</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4,8</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FolderOps</testDataId>
       </testDataLink>
@@ -100,8 +100,8 @@
          <combinationType>ONE</combinationType>
          <id>a542f045-5a7d-47cf-8f75-1fc33df51457</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-5</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,4</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
@@ -134,8 +134,8 @@
          <combinationType>ONE</combinationType>
          <id>b1c587dc-0b9c-4f47-8ac5-76999058b2a1</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>6-10</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>6,8</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>

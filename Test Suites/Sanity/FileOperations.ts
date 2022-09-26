@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>83b46cc3-823e-4f5f-91af-73a3698c7160</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FileCreate</testDataId>
       </testDataLink>
@@ -54,8 +54,8 @@
          <combinationType>ONE</combinationType>
          <id>4fb8185c-346d-4b3b-9d32-fcfd42978cc6</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-8</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4,6</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
@@ -88,8 +88,8 @@
          <combinationType>ONE</combinationType>
          <id>aa4cf69d-0cb5-43ee-9280-12fe58ce81bb</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>9-17</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3,9</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
@@ -122,8 +122,8 @@
          <combinationType>ONE</combinationType>
          <id>e1df787b-c0de-47c7-a190-7913da061613</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,2</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FileViewer</testDataId>
       </testDataLink>

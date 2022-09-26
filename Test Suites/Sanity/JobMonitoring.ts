@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>2c69ad8d-11a6-48f2-b147-06396147485a</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-12</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobDetails</testDataId>
       </testDataLink>
@@ -60,8 +60,8 @@
          <combinationType>ONE</combinationType>
          <id>984705c9-36cb-4c3b-92f1-51ff5b4ebc52</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>16-22</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>19,20</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobDetails</testDataId>
       </testDataLink>
@@ -100,8 +100,8 @@
          <combinationType>ONE</combinationType>
          <id>de3de7c4-8a67-4b96-9c3f-44b6f7372061</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobAction</testDataId>
       </testDataLink>
@@ -140,8 +140,8 @@
          <combinationType>ONE</combinationType>
          <id>50abcf66-282e-49cf-93ce-a0412e658999</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobActionIcon</testDataId>
       </testDataLink>
@@ -174,8 +174,8 @@
          <combinationType>ONE</combinationType>
          <id>8ea59f6d-67a7-4368-8cef-42e60d8ef3b0</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobFilters</testDataId>
       </testDataLink>

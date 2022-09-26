@@ -18,7 +18,7 @@ public class GenerateReport {
 		def date = new Date()
 		def filePath = (RunConfiguration.getProjectDir() + '/ExtentReports/')
 		def path = filePath+ReportName
-	//	def path = GlobalVariable.G_ReportFolder+'/'+ReportName
+		//	def path = GlobalVariable.G_ReportFolder+'/'+ReportName
 		println ("********************* - "+path+" - *********************")
 		ExtentReports extent = new ExtentReports();
 		ExtentSparkReporter spark = new ExtentSparkReporter(path);

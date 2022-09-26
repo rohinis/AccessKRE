@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>a70d0f78-a0de-4e39-8762-db2befa5f530</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,6</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobSubmission</testDataId>
       </testDataLink>
@@ -78,8 +78,8 @@
          <combinationType>ONE</combinationType>
          <id>5da486e7-e275-4fe1-b3d5-98a4a5b9b88b</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3,5</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>

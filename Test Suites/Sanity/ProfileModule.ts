@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>e8918466-2248-4ed3-ac3b-0ee2c20ce33c</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileCreation</testDataId>
       </testDataLink>
@@ -78,8 +78,8 @@
          <combinationType>ONE</combinationType>
          <id>eedb66fb-27b8-4868-afc1-ca297ee58312</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileSubmissions</testDataId>
       </testDataLink>
@@ -130,8 +130,8 @@
          <combinationType>ONE</combinationType>
          <id>7c5c22f5-d7fe-4f06-9cc2-1c9f762f7867</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value>1</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileSubmissions</testDataId>
       </testDataLink>
@@ -176,8 +176,8 @@
          <combinationType>ONE</combinationType>
          <id>33cc5c11-5370-4800-aa58-58e44a51b974</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1,3</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileCreation</testDataId>
       </testDataLink>
