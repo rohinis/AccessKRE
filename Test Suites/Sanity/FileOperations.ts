@@ -20,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>83b46cc3-823e-4f5f-91af-73a3698c7160</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-2</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/FileCreate</testDataId>
