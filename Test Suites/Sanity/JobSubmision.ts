@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>a70d0f78-a0de-4e39-8762-db2befa5f530</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1,6</value>
+            <iterationType>RANGE</iterationType>
+            <value>1-4</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobSubmission</testDataId>
       </testDataLink>
@@ -118,7 +118,7 @@
    <testCaseLink>
       <guid>cc979d62-514c-40bd-aa7c-f6dbddf5c419</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/PreReq/Pre-Req-CustomActions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -137,7 +137,7 @@
    <testCaseLink>
       <guid>70180ed2-3db8-4633-91f1-4a6dd2798d23</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobMonitoring/CustomAction</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
