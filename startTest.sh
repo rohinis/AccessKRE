@@ -12,7 +12,7 @@ echo "Admin"
 #################################################################################################
  "CICD")
  echo "CI_CD"
-./katalonc -noSplash -runMode=console -projectPath="/tmp/AccessKRE/AccessKRE.prj" -retry=0 -testSuiteCollectionPath="Test Suites/Sanity/CI-CD-FF" -apiKey="45b931a2-d0c7-4269-a438-a0a72aeef2d8" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
+./katalonc -noSplash -runMode=console -projectPath="/tmp/AccessKRE/AccessKRE.prj" -retry=0 -testSuiteCollectionPath="Test Suites/Sanity/CI-CD-FF" -apiKey="773f8ea1-88cc-4327-bc3f-92bce9a403c4" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true
 
 ;;
 
