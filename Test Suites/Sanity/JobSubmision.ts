@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>a70d0f78-a0de-4e39-8762-db2befa5f530</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-4</value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3,4,5,1,2</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobSubmission</testDataId>
       </testDataLink>
@@ -72,7 +72,7 @@
    <testCaseLink>
       <guid>6b37d517-a5ae-4ace-8ca8-968880815724</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>a0ece124-0f5c-4321-8fa8-8624184b3f99</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/FileOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -116,7 +116,7 @@
    <testCaseLink>
       <guid>41a9f9d0-0fce-4e67-9ee4-0bc12fda66c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/FileViewerOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
